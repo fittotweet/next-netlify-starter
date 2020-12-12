@@ -1,4 +1,8 @@
-import '@styles/globals.css'
+import '@styles/globals.css';
+import { TodosProvider } from '../contexts/TodosContext.js';
+import '../styles/index.css';
+
+
 
 function Application({ Component, pageProps }) {
   return <Component {...pageProps} />
